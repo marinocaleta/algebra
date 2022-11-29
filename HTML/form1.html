@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example by Marino Caleta</title>
+</head>
+
+<body>
+    <form name="Example" action="" method="post" enctype="multipart/form-data" autocomplete="off">
+
+        <p>
+            <label for="fullname">Ime i prezime<sup>*</sup></label><br>
+            <input id="fullname" name="fullname" type="text" placeholder="Vase ime i prezime" required>
+        </p>
+
+        <p>
+            <label for="mail">E-mail adresa<sup>*</sup></label><br>
+            <input id="mail" name="mail" type="email" placeholder="Upisite valjanu e-mail adresu" required>
+        </p>
+
+        <p>
+            <label for="contact">Kontakt broj telefona</label><br>
+            <input id="contact" name="contact" type="tel">
+        </p>
+
+        <p>
+            <label for="bday">Datum rodenja</label><br>
+            <input id="bday" name="bday" type="date">
+        </p>
+
+        <p>
+            Koje jezike govorite?<br>
+
+            <label id="lang1">Engleski</label>
+            <input for="lang1" name="lang" type="checkbox">
+
+            <label id="lang2">Talijanski</label>
+            <input for="lang2" name="lang" type="checkbox">
+
+            <label id="lang3">Njemacki</label>
+            <input for="lang3" name="lang" type="checkbox">
+
+            <label id="lang4">Francuski</label>
+            <input for="lang4" name="lang" type="checkbox">
+
+            <label id="lang5">Spanjolski</label>
+            <input for="lang5" name="lang" type="checkbox">
+        </p>
+
+        <p>
+            Da li ste do sada koristili usluge nase tvrtke?<br>
+
+            <label id="yes">Da</label>
+            <input form="yes" name="yes" type="radio">
+            <label id="no">Ne</label>
+            <input form="no" name="yes" type="radio">
+        </p>
+
+        <p>
+            <label id="attach">Prilozite zivotopis</label><br>
+            <input id="attach" name="attach" type="file">
+        </p>
+
+        <button type="reset">Ponisti</button>
+        <button type="submit">Prijavi se</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Contact Form</h1>
+    <hr>
+
+    <form name="Contact Form" action="" method="post" enctype="multipart/form-data" autocomplete="off">
+
+        <p>
+            <label for="ime">Full name<sup>*</sup></label><br>
+            <input id="ime" name="imeiprezime" type="text" size="30" maxlength="30" placeholder="Enter your name"
+                required>
+        </p>
+
+        <p>
+            <label for="mail">E-mail address</label><br>
+            <input id="mail" name="email" type="email" size="30" placeholder="marino.example.com" required>
+        </p>
+
+        <p>
+            <label for="phone">Phone number</label>
+            <input id="phone" name="tel" type="tel" size="30">
+        </p>
+
+        <p>
+            <label for="password">Lozinka</label>
+            <input id="password" name="password" type="password" required size="30">
+        </p>
+
+        <p>
+            <label for="color">Choose car color</label><br>
+            <input id="color" name="color" type="color" size="30">
+        </p>
+
+        <p>
+            <input id="subscription" name="newsletter" type="checkbox" value="true">
+            <label for="subscription">Send me newsletter!</label><br>
+        </p>
+
+        <hr>
+
+        <p>
+            Rate us<br>
+
+            <input id="grade1" name="grade" value="1" type="radio">
+            <label for="grade1">Not satisfied.</label>
+
+            <input id="grade2" name="grade" value="2" type="radio">
+            <label for="grade2">Mediocre.</label>
+
+            <input id="grade3" name="grade" value="3" type="radio">
+            <label for="grade3">Satisfied.</label>
+        </p>
+
+        <p>
+            <label for="document">Attach a file</label>
+            <input id="document" name="document" type="file">
+        </p>
+
+        <hr>
+
+        <p>
+            <label id="comment">Describe your problem</label><br>
+            <textarea id="comment" name="comment" cols="45" rows="10" maxlength="200" required></textarea>
+        </p>
+
+        <hr>
+
+        <p>
+            <label for="city">Choose city</label><br>
+            <select id="city" required>
+                <option value="paris">Paris</option>
+                <option value="london">London</option>
+                <option value="rim">Rim</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="program1">Choose a program</label>
+            <input id="programi" name="programi" type="text" list="programiIzListe">
+            <datalist id="programiIzListe">
+                <option value="Front-End Developer">
+                <option value="Math">
+                <option value="Science">
+            </datalist>
+        </p>
+
+        <button type="submit">Send</button>
+        <button type="reset">Reset form</button>
+
+    </form>
+</body>
+
+</html>

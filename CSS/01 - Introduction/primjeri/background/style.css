@@ -1,0 +1,26 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: aliceblue;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+nav{
+    background-color: #ffc;
+}
+
+footer{
+    background-color: rgb(95, 158, 160);
+}
+
+h1{
+    background-color: brown;
+}
+
+p{
+    background-color: darkgreen;
+}

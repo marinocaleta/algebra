@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marino Caleta</title>
+    <link href="algebra-polaznici-main/01 - HTML/Media/images/logo/favicon.ico" 
+    rel="icon" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Marino Caleta</h1>
+        <nav>
+            <ul>
+                <li><a href="">Naslovnica</a></li>
+                <li><a href="">O meni</a></li>
+                <li><a href="">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+
+        <section id="o-meni">
+
+            <article>
+                <h2>O meni</h2>
+                <img src="algebra-polaznici-main/01 - HTML/Media/images/ljudi/lica/man-close-up.png">
+                <p>Lorem <b>Ispum</b>ipsum dolor sit amet consectetur adipisicing elit.
+                    <i>ipsum</i>Praesentium asperiores est <u>eiros</u>earum explicabo ipsum ad eius
+                    laborum tempora aperiam, facere omnis nulla deleniti
+                    <strong>exercitationem</strong> animi, dolor error natus illum perspiciatis?
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="usluge">
+            <h2>Moje usluge</h2>
+            <ul>
+                <li>tech</li>
+                <li>mech</li>
+                <li>game</li>
+                <li>illustration</li>
+                <li>design</li>
+            </ul>
+
+            <aside>
+                <img src="algebra-polaznici-main/01 - HTML/Media/images/gradovi/london.jpg" width="300">
+            </aside>
+        </section>
+
+        <section id="kontakt">
+            <h2>Contact us</h2>
+
+            <form name="kontakt" action="" method="POST" enctype="multipart/form-data">
+
+                <div>
+                    <label>Ime i prezime</label>
+                    <input id="name" type="text" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div>
+                    <label for="email">Enter your mail</label>
+                    <input id="email" type="email" placeholder="enter your mail" required>
+                </div>
+
+                <div>
+                    <label for="message">Enter your message</label><br>
+                    <textarea id="message" name="message" cols="45" rows="10" required></textarea>
+                </div>
+
+                <div>
+                    <label for="project">Choose project type</label>
+                    <select id="project" name="project">
+                        <option value="email-marketing">Email marketing</option>
+                        <option value="website">Website</option>
+                        <option value="consulting">Consulting</option>
+                    </select>
+                </div>
+                <br>
+                <button type="reset">Reset</button>
+                <button type="submit">Send form</button>
+                <br>
+                <br>
+                <a href="#">Back to top</a><br>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

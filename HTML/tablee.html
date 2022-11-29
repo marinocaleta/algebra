@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablice</title>
+
+    <style>
+        table{
+          border: 1px solid #333
+        }
+        td, th{
+          border: 1px solid #333;
+          font-size: 3rem;
+        }
+      </style>
+</head>
+
+<body>
+    <table>
+
+    </table>
+    <hr>
+
+
+    <table>
+
+    </table>
+    <hr>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Namirnica</th>
+                <th>Kolicina</th>
+                <th>Predvidena potrosnja</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tresnje</td>
+                <td>5kg</td>
+                <td>100Kn</td>
+            </tr>
+            <tr>
+                <td>Breskve</td>
+                <td>2kg</td>
+                <td>20Kn</td>
+            </tr>
+            <tr>
+                <td>Marelica</td>
+                <td>3kg</td>
+                <td>150Kn</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Ukupno:</td>
+                <td>10kg</td>
+                <td>270Kn</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+
+    
+    <table>
+        <tr>
+            <td colspan="4">Red 1, celija 1</td>
+        </tr>
+
+        <tr>
+            <td>Red 2, celija 4</td>
+            <td>Red 2, celija 5</td>
+            <td>Red 2, celija 6(kopija)</td>
+            <td>Red 2, celija 6</td>
+        </tr>
+
+        <tr>
+            <td>Red 3, celija 7</td>
+            <td colspan="3">Red 3, celija 8</td>
+        </tr>
+    </table>
+    <hr>
+
+    <table>
+        <tr>
+            <td rowspan="3">Red 1, celija 1</td>
+            <td>Red 1, celija 2</td>
+            <td>Red 1, celija 3</td>
+        </tr>
+
+        
+        <tr>
+            <td rowspan="2">Red 2, celija 5</td>
+            <td>Red 2, celija 6</td>
+        </tr>
+
+        
+        <tr>
+            <td>Red 3, celija 9</td>
+        </tr>
+    </table>
+</body>
+
+</html>

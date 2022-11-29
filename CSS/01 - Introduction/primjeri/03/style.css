@@ -1,0 +1,25 @@
+/* primjer CSS pravila pisanih u CSS dokumentu */
+
+h1{
+    color: red;
+}
+
+h2{
+    color: blueviolet;
+}
+
+h3{
+    color: green;
+}
+
+p{
+    color: #666;
+}
+
+ul{
+    color: yellowgreen;
+}
+
+li{
+    color: aquamarine;
+}
